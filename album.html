@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-frame {
+            width: 300px;
+            height: 314px;
+            border: 2px solid black;
+            border-radius: 10px;
+            position: relative;
+            margin: 5px;
+            overflow: hidden;
+        }
+
+        .photo-frame img {
+            width: 100%;
+        }
+
+        .photo-detail {
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+
+        .photo-detail h3 {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .photo-detail p {
+            color: white;
+        }
+
+        .photo-frame:hover .photo-detail {
+            display: block;
+            background-color: rgba(95, 158, 160, 0.616);
+        }
+
+        .photo-frame:hover img {
+            transform: scale(2.5);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>My photo album With A Tigar</h2>
+    <section>
+        <h3>Tigar Album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque 6necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+            <div class="photo-frame">
+                <img src="images/tigar.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Candid Tigar</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias atque necessitatibus molestias
+                        labore, eos ab expedita beatae nobis quam sint? Possimus ipsam aliquam perspiciatis deleniti
+                        provident molestias distinctio eos rerum odit assumenda. Eos enim exercitationem sapiente
+                        accusamus.
+                        Ex, doloribus explicabo!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
